@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic);
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #1f2124;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+p{
+    font-family: Nunito;
+}
+
+h1, h5{
+    font-family: EB Garamond;
+}
+
+.logo{
+    max-width: 50px;
+}
+
+.carousel-inner img{
+    max-height: 700px;
+    max-width: 100%;
+}
+
+.card img{
+    max-width: 286px;
+    max-height: 197px;
+}
+
+.card{
+    transition: 0.5s;
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card a:hover{
+    text-decoration: underline;
+}
+
+.img{
+    max-width: 500px;
+}
+
+.img_3{
+    max-height: 500px;
+}
