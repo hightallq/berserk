@@ -86,10 +86,8 @@ h1, h5{
     }
 }
 
-@media (max-width:425px) {
-    .cards{
-        flex-wrap: wrap;
-    }
+ .cards{
+   flex-wrap: wrap;
 }
 
 .card:hover{
