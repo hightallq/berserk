@@ -24,9 +24,36 @@ h1, h5{
     max-width: 50px;
 }
 
+@media (max-width:900px) {
+    .carousel-inner img{
+        min-height: 550px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:800px) {
+    .carousel-inner img{
+        min-height: 450px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:450px) {
+    .carousel-inner img{
+        min-height: 300px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:450px) {
+    .carousel-inner img{
+        min-height: 200px;
+        max-width: 100%;
+    }
+}
+
 .carousel-inner img{
-    max-height: 700px;
-    max-width: 100%;
+    max-height: 600px;
 }
 
 .card img{
@@ -35,9 +62,35 @@ h1, h5{
 }
 
 .card{
+    width: 18rem;
     transition: 0.5s;
 }
 
+@media (max-width:900px) {
+    .card{
+        width: 15rem;
+    }
+}
+
+@media (max-width:800px) {
+    .card{
+        width: 12rem;
+    }
+}
+
+@media (max-width:425px) {
+    .card{
+        width: 18rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:425px) {
+    .cards{
+        flex-wrap: wrap;
+    }
+}
 
 .card:hover{
     transform: scale(1.1);
@@ -47,8 +100,30 @@ h1, h5{
     text-decoration: underline;
 }
 
+.txt{
+    flex-wrap: wrap;
+}
+
+@media (max-width:425px) {
+    .art{
+       width: 400px;
+    }
+}
+
 .img{
     max-width: 500px;
+}
+
+@media (max-width:900px) {
+    .img{
+        max-width: 400px;
+    }
+}
+
+@media (max-width:800px) {
+    .img{
+        max-width: 300px;
+    }
 }
 
 .img_3{
